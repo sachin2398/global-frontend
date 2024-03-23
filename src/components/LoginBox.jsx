@@ -56,7 +56,7 @@ const LoginBox = () => {
           </div>
           <div className="input-container password-input">
             <label htmlFor="password">Password</label>
-            <input type={showPassword ? 'text' : 'password'} name="password" placeholder="Enter" required value={password} onChange={(e) => setPassword(e.target.value)} style={{height:"100px"}} />
+            <input type={showPassword ? 'text' : 'password'} name="password" placeholder="Enter" required value={password} onChange={(e) => setPassword(e.target.value)} style={{height:"48px"}} />
             <span className="show-password" onClick={togglePasswordVisibility}>
               {showPassword ? <u>Hide</u> : <u>Show</u>}
             </span>
